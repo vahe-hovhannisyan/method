@@ -3,7 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(min(1, 5, 7));
+        System.out.println(min(11, 5, 8));
+        System.out.println(square(12));
+
     }
 
     public static int min(int num, int num1, int num2) {
@@ -16,5 +18,9 @@ public class Main {
             min = num2;
         }
         return min;
+    }
+
+    public static int square(int num) {
+        return num * num;
     }
 }
