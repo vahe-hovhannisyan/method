@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(min(5, 1, 8) + " min ");
         System.out.println(square(12) + " square ");
-        System.out.println(sum(4, 5, 6) + " sum ");
-        System.out.println(average(3,7,9) + " average ");
-        System.out.println(multiple(1,5,-4) + " multiple ");
+        System.out.println(sum(4, 5) + " sum ");
+        System.out.println(average(3,7) + " average ");
+        System.out.println(multiply(1,5) + " multiply ");
 
     }
 
@@ -33,7 +33,7 @@ public class Main {
     public static int average(int num, int num1){
         return (num + num1) / 2;
     }
-    public static int multiple(int num, int num1){
+    public static int multiply(int num, int num1){
         return num * num1;
     }
 
