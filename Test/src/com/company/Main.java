@@ -27,14 +27,14 @@ public class Main {
         return num * num;
     }
 
-    public static int sum(int num, int num1, int num2) {
-        return num + num1 + num2;
+    public static int sum(int num, int num1) {
+        return num + num1;
     }
-    public static int average(int num, int num1, int num2){
-        return (num + num1 + num2) / 3;
+    public static int average(int num, int num1){
+        return (num + num1) / 2;
     }
-    public static int multiple(int num, int num1, int num2){
-        return num * num1 * num2;
+    public static int multiple(int num, int num1){
+        return num * num1;
     }
 
-} 
+}
