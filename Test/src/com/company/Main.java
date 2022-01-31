@@ -33,7 +33,7 @@ public class Main {
 
     public static int average(int num, int num1) {
         return (num + num1) / 2;
-    }
+    } 
 
     public static int multiply(int num, int num1) {
         return num * num1;
