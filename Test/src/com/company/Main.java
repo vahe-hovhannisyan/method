@@ -11,7 +11,8 @@ public class Main {
         System.out.println(average(3, 7) + " average ");
         System.out.println(multiply(1, 5) + " multiply ");
         string(5, "Vahan");
-
+        System.out.println( subract(7,4));
+        System.out.println(factor(10,2));
 
     }
 
@@ -31,13 +32,16 @@ public class Main {
         return num * num;
     }
 
+
     public static int sum(int num, int num1) {
         return num + num1;
     }
 
+
     public static int average(int num, int num1) {
-        return (num + num1) / 2;
+        return sum(3,7)/ 2;
     }
+
 
     public static int multiply(int num, int num1) {
         return num * num1;
@@ -47,6 +51,14 @@ public class Main {
 
         System.out.println(num + " " + string);
     }
+    public static int subract(int num, int num1 ){
+        return num - num1;
+    }
+
+    public static  int factor(int num, int num1){
+        return num / num1;
+    }
+
 }
 
 
