@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,7 +10,9 @@ public class Main {
         System.out.println(sum(4, 5) + " sum ");
         System.out.println(average(3, 7) + " average ");
         System.out.println(multiply(1, 5) + " multiply ");
-        System.out.println(string(7 + " " + "text"););
+        string(5, "Vahan");
+
+
     }
 
     public static int min(int num, int num1, int num2) {
@@ -33,18 +37,16 @@ public class Main {
 
     public static int average(int num, int num1) {
         return (num + num1) / 2;
-    } 
+    }
 
     public static int multiply(int num, int num1) {
         return num * num1;
     }
 
-    public static int string(int num, String string) {
-        System.out.println(string(5 + " " + "text"));
-        return num;
+    public static void string(int num, String string) {
 
+        System.out.println(num + " " + string);
     }
-
-    }
+}
 
 
